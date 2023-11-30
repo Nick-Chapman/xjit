@@ -23,5 +23,6 @@ runX x input =
         [] -> runX (f (chr 0)) []
         char1:input -> runX (f char1) input
     Xput char x -> do
-      print ("XPut",char)
+      --print ("XPut",char)
+      putStr [char]
       runX x input

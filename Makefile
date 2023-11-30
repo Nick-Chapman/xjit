@@ -1,0 +1,3 @@
+
+top:
+	stack run
